@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLite.Net.Standard", "src\SQLite.Net.Standard\SQLite.Net.Standard.csproj", "{09BFA408-5DBC-4333-B18E-8245B1F31C20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLite.Net.Standard.UnitTests", "tests\SQLite.Net.Standard.UnitTests\SQLite.Net.Standard.UnitTests.csproj", "{4436CA62-FEF0-4D60-8F96-E0A1C7271E4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B35CC8C2-9CD3-4345-B1D2-C7C7D18DFD60}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		CODE_OF_CONDUCT.md = CODE_OF_CONDUCT.md
+		CONTRIBUTING.md = CONTRIBUTING.md
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{FAAAEFE8-6EB3-4FDD-8BA7-3208A16CB6C9}"
+	ProjectSection(SolutionItems) = preProject
+		.github\ISSUE_TEMPLATE.md = .github\ISSUE_TEMPLATE.md
+		.github\PULL_REQUEST_TEMPLATE.md = .github\PULL_REQUEST_TEMPLATE.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09BFA408-5DBC-4333-B18E-8245B1F31C20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09BFA408-5DBC-4333-B18E-8245B1F31C20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09BFA408-5DBC-4333-B18E-8245B1F31C20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09BFA408-5DBC-4333-B18E-8245B1F31C20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4436CA62-FEF0-4D60-8F96-E0A1C7271E4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4436CA62-FEF0-4D60-8F96-E0A1C7271E4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4436CA62-FEF0-4D60-8F96-E0A1C7271E4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4436CA62-FEF0-4D60-8F96-E0A1C7271E4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FAAAEFE8-6EB3-4FDD-8BA7-3208A16CB6C9} = {B35CC8C2-9CD3-4345-B1D2-C7C7D18DFD60}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D7133CA-A14E-4911-B011-2AF1BFDECFD0}
+	EndGlobalSection
+EndGlobal

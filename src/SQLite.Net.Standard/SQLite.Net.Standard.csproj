@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>SQLite.Net.Standard</AssemblyName>
+    <RootNamespace>SQLite.Net</RootNamespace>
+    <PackageId>SQLite.Net.Standard</PackageId>
+    <Authors>SQLite.Net.Standard</Authors>
+    <Product>SQLite.Net.Standard</Product>
+    <Copyright>Copyright © 2018 Marc King</Copyright>
+    <PackageProjectUrl>https://github.com/logicseed/SQLite.Net.Standard</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/logicseed/SQLite.Net.Standard.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <Description>A lightweight .NET Standard 2.0 library for using SQLite 3 in multi-platform C#.</Description>
+    <PackageLicenseUrl>https://github.com/logicseed/SQLite.Net.Standard/blob/master/LICENSE.md</PackageLicenseUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="sqlite" Version="3.13.0" />
+  </ItemGroup>
+
+</Project>

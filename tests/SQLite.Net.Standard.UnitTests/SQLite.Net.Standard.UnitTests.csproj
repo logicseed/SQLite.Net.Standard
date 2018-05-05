@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+
+    <AssemblyName>SQLite.Net.Standard.UnitTests</AssemblyName>
+
+    <RootNamespace>SQLite.Net.UnitTests</RootNamespace>
+
+    <PackageId>SQLite.Net.Standard.UnitTests</PackageId>
+
+    <Authors>SQLite.Net.Standard.UnitTests</Authors>
+
+    <Product>SQLite.Net.Standard.UnitTests</Product>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.7.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.2.1" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.2.1" />
+    <PackageReference Include="sqlite" Version="3.13.0" />
+  </ItemGroup>
+
+</Project>
